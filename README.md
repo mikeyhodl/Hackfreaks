@@ -11,7 +11,10 @@ Can be found on telegram as [MrHackfreaks](https://t.me/MrHackfreaksRobot).
 
 The Support group can be reached out to at our [SupprtChat](https://t.me/HackfreaksSupport), where you can ask for help about MrHackfreaksRobot,discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
+# Required Info
 
+> Those Who Are using Heroku Postgres as their DB; Kindly Go for Alpha Branch
+> And For those who are using External Database as their DB: Kindly Go For DBChanger Branch
 
 ## How to setup/deploy.
 

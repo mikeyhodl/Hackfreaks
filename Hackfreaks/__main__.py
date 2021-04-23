@@ -54,7 +54,7 @@ PM_START_TEXT = """
 Hi {}, my name is {}! 
 I am a Pro group management bot, with some Special features.
  
-Hosted in Heroku with Mongo Database,
+Hosted in Heroku with ElephantSQL Database,
 I Can make your group management fun and easy!
 Press or type /help to Get to know about my Modules
 ==========================
@@ -62,7 +62,7 @@ Press or type /help to Get to know about my Modules
 ✗ [Support Group](t.me/HackfreaksSupport).
 ✗ [Repository](github.com/swatv3nub/Hackfreaks)
 
-Maintained by @TheFuckErGuy
+Maintained by @Swonit
 Wanna Add me to your Group? Just click the button below!
 """
 
@@ -190,7 +190,7 @@ def start(update: Update, context: CallbackContext):
 
         else:
             first_name = update.effective_user.first_name
-            update.effective_message.reply_animation(
+            update.effective_message.reply_photo(
                 HACKFREAKS_IMG,
                 caption=PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(context.bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN,
