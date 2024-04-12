@@ -42,4 +42,4 @@ mtranslate
 aiohttp[speedups]
 nekos.py
 pymongo==3.11.0
-dnspython==2.0.0
+dnspython==2.6.1
